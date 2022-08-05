@@ -1,0 +1,91 @@
+#gg{
+    width: 100%;
+    height: 10vh;
+    background-color: tan;
+}
+#input{
+width : 75%;
+height : 6vh;
+margin-top: 7px;
+margin-left : 2px;
+}
+#main{
+    width: 75%;
+    height: 75vh;
+    border: 3.5px solid tan;
+}
+#kk{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+}
+#list{
+    padding: 0px;
+    margin-top: 0px;
+}
+#list li{
+list-style-type: none;
+font-size: 30px;
+display: flex;
+justify-content: space-between;
+background-color: #d9d9d9;
+border-radius: 1px;
+cursor: pointer;
+}
+#list li:nth-child(odd){
+    background-color: #ececec;
+}
+#btn{
+    border: none;
+    width: 21%;
+    height: 6vh;
+    margin-left: 3px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#gg button:hover{
+    background-color: #f69c9c;
+}
+#listcontainer{
+    overflow: scroll;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 65vh;
+    margin-left: 0;
+    padding-bottom: 1px;
+}
+#list li:hover{
+        background-color: #f69c9c;
+        
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 15px;
+    }
+.delete:hover{
+    background-color: #f44336
+}
+#spn{
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+    height: 7vh;
+    cursor: pointer;
+}
+.kk button :hover {
+    background: #f44336;
+}
+#delall{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
